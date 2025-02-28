@@ -1,0 +1,86 @@
+body {
+    font-family: "Montserrat";
+    background-color: rgb(24,26,32);
+    color: rgb(234,236,239);
+    display: block;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-container h1 {
+    color: rgb(240,185,11);
+    padding: 20px 0 20px;
+    font-size: 60px;
+}
+
+.header-container p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.yellow {
+    color: rgb(240,185,11);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header-container .header-info {
+    display: flex;
+    gap: 50px;
+}
+
+.header-container .header-info ul {
+    counter-reset: list-counter;
+    list-style: none;
+    padding-left: 0;
+}
+
+.header-container .header-info ul li {
+    counter-increment: list-counter;
+    font-size: 25px;
+    margin: 20px 0;
+    color: rgb(234,236,239);
+}
+
+.header-container .header-buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.header-container button {
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+.header-container .header-buttons #login-btn {
+    background-color: rgb(43,49,57);
+    border: none;
+    color: rgb(234,236,239);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+.header-container .header-buttons #register-btn {
+    background-color: rgb(252,213,53);
+    border: none;
+    color: rgb(32,38,48);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+.header-container .header-buttons #register-btn:hover {
+    background-color: rgb(196, 165, 39);
+}
+
+.header-container .header-buttons #login-btn:hover {
+    background-color: rgb(26, 30, 34);
+}
