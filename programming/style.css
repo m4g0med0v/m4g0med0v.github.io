@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-color: #222222;
+    color: #eeeeee;
+    width: 60vw;
+    height: 97vh;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #a90433;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+a {
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    color: #eeeeee;
+    padding-bottom: 10px;
+}
+
+a:hover {
+    color: #a90433;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 200px;
+}
+
+span::before {
+    content: "— ";
+}
