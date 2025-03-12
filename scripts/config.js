@@ -138,10 +138,46 @@ const CONFIG = {
     ],
     thirdLinkBlock: [
         {
-            position: 6,
+            position: 7,
             name: "Programming",
             icon: "programming.png",
             link: "programming/index.html",
         },
+        {
+            position: 2,
+            name: "Нейронные сети на Python",
+            icon: "youtube.png",
+            link: "https://youtube.com/playlist?list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh&si=YFHX5dBUfblu6WB-"
+        },
+        {
+            position: 3,
+            name: "Нейронные сети на PyTorch",
+            icon: "youtube.png",
+            link: "https://youtube.com/playlist?list=PLA0M1Bcd0w8xUIMIPSoiW05lDyPNPt4tf&si=K7Ls2j__w2fM_J4Y"
+        },
+        {
+            position: 4,
+            name: "Язык программирование C/C++",
+            icon: "youtube.png",
+            link: "https://youtube.com/playlist?list=PLA0M1Bcd0w8w-mqVmBjt-2J8Z1gVmPZVz&si=rzDTSLMjG_OLBaH-"
+        },
+        {
+            position: 5,
+            name: "Объектно-ориентрованно программирования С++",
+            icon: "youtube.png",
+            link: "https://youtube.com/playlist?list=PLA0M1Bcd0w8ye84Jmv9yaI5eRTCBTcePE&si=YRi20jJ8llV4ser-"
+        },
+        {
+            position: 8,
+            name: "CS61C FA20",
+            icon: "youtube.png",
+            link: "https://youtube.com/playlist?list=PL0j-r-omG7i0-mnsxN5T4UcVS1Di0isqf&si=7GmIUBk6FIJmA_DJ"
+        },
+        {
+            position: 9,
+            name: "From Nand to Tetris",
+            icon: "nand2tetris.png",
+            link: "https://www.nand2tetris.org/"
+        }
     ],
 }
