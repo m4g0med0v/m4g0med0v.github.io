@@ -97,6 +97,12 @@ const CONFIG = {
     ],
     secondLinkBlock: [
         {
+            position: 2,
+            name: "Stepik",
+            icon: "stepik.png",
+            link: "https://stepik.org/catalog"
+        },
+        {
             position: 3,
             name: "GitHub",
             icon: "github.svg",
@@ -132,6 +138,12 @@ const CONFIG = {
             icon: "monkeytype.png",
             link: "https://monkeytype.com/",
         },
+        {
+            position: 9,
+            name: "MathProfi",
+            icon: "math.png",
+            link: "http://mathprofi.ru/lekcii_po_vysshei_matematike.html"
+        }
         
         
         
@@ -145,24 +157,30 @@ const CONFIG = {
         },
         {
             position: 2,
+            name: "Машинное обучение",
+            icon: "youtube.png",
+            link: "https://www.youtube.com/playlist?list=PLA0M1Bcd0w8zxDIDOTQHsX68MCDOAJDtj"
+        },
+        {
+            position: 3,
             name: "Нейронные сети на Python",
             icon: "youtube.png",
             link: "https://youtube.com/playlist?list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh&si=YFHX5dBUfblu6WB-"
         },
         {
-            position: 3,
+            position: 4,
             name: "Нейронные сети на PyTorch",
             icon: "youtube.png",
             link: "https://youtube.com/playlist?list=PLA0M1Bcd0w8xUIMIPSoiW05lDyPNPt4tf&si=K7Ls2j__w2fM_J4Y"
         },
         {
-            position: 4,
+            position: 5,
             name: "Язык программирование C/C++",
             icon: "youtube.png",
             link: "https://youtube.com/playlist?list=PLA0M1Bcd0w8w-mqVmBjt-2J8Z1gVmPZVz&si=rzDTSLMjG_OLBaH-"
         },
         {
-            position: 5,
+            position: 6,
             name: "Объектно-ориентрованно программирования С++",
             icon: "youtube.png",
             link: "https://youtube.com/playlist?list=PLA0M1Bcd0w8ye84Jmv9yaI5eRTCBTcePE&si=YRi20jJ8llV4ser-"
